@@ -102,14 +102,10 @@
 .option.incorrect{
     background-color: rgb(212, 34, 34);
 }
-.option:hover{
+/* .option:hover{
     background-color: aliceblue;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -ms-transition: all .4s ease;
-    -o-transition: all .4s ease;
-}
+
+} */
 .nextbtn{
     display: flex;
     justify-content: end;

@@ -77,7 +77,7 @@ function optionselected(answer) {
   let useranswer = answer.textContent.trim();
   let correct = quizlist[questionCount].correctanswer.trim();
 let alloptions = optionlist.children.length
-  if (useranswer == correct) {
+  if (useranswer === correct) {
     score +=1
     answer.classList.add("correct")
     answer.insertAdjacentHTML("beforeend", correcticon)
